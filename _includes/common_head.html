@@ -7,9 +7,9 @@
   3. Site title
 {%- endcomment -%}
 {%- if page.title -%}
-  {%- capture title -%}{{ page.title }} &middot {{ site.title }}{%- endcapture -%}
+  {%- capture title -%}{{ page.title }} &middot; {{ site.title }}{%- endcapture -%}
 {%- elsif locale_data_page.title -%}
-  {%- capture title -%}{{ locale_data_page.title }} &middot {{ site.title }}{%- endcapture -%}
+  {%- capture title -%}{{ locale_data_page.title }} &middot; {{ site.title }}{%- endcapture -%}
 {%- else -%}
   {%- assign title = site.title -%}
 {%- endif -%}
