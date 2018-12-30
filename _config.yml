@@ -1,0 +1,12 @@
+title: Ocean
+
+domain:           oceanpkg.org
+url:  https://www.oceanpkg.org
+twitter_username: oceanpkg
+github_username:  oceanpkg
+
+keywords:
+  - ocean
+  - oceanpkg
+
+markdown: kramdown

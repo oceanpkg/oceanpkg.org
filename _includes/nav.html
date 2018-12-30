@@ -1,0 +1,16 @@
+<ul class="nav-header">
+  {%- for nav in site.data.nav -%}
+    {%- assign nav_data = site.data.locales[locale].pages[nav] -%}
+    {%- if nav_data -%}
+      {%- if nav == page.key -%}
+      <li class="nav current-nav">
+      {%- else -%}
+      <li class="nav">
+      {%- endif -%}
+        <a lang="{{ locale }}" href="{{ site.url }}/{{ locale }}/{{ nav }}">
+          {{- nav_data.title -}}
+        </a>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

@@ -1,0 +1,14 @@
+{%- include locale.liquid -%}
+<!DOCTYPE html>
+<!-- Generated on {{ site.time }} -->
+<html lang="{{ locale }}">
+  <head>
+    {%- include common_head.html -%}
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    {%- include nav.html -%}
+    {{ content }}
+    {%- include footer.html -%}
+  </body>
+</html>

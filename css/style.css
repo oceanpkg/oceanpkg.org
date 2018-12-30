@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+ul {
+  display: block;
+}
+
+.nav-header li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.current-nav a {
+  color: aqua;
+}
+
+.nav-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #222;
+  color: #fff;
+}
+
+.nav-footer a {
+  color: #fff;
+}
+
+.footer-social {
+  display: inline-block;
+}
+
+.icon {
+  fill: currentColor;
+}

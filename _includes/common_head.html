@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+
+{%- comment -%}
+  Try the following in order:
+  1. Title in page
+  2. Title in `locales.yml`
+  3. Site title
+{%- endcomment -%}
+{%- if page.title -%}
+  {%- capture title -%}{{ page.title }} &middot {{ site.title }}{%- endcapture -%}
+{%- elsif locale_data_page.title -%}
+  {%- capture title -%}{{ locale_data_page.title }} &middot {{ site.title }}{%- endcapture -%}
+{%- else -%}
+  {%- assign title = site.title -%}
+{%- endif -%}
+<title>{{ title }}</title>
+
+{%- if page.description -%}
+  {%- assign description = page.description -%}
+{%- else -%}
+  {%- assign description = locale_data.description -%}
+{%- endif -%}
+<meta name="description" content="{{ description }}">
+
+{%- assign keywords = site.keywords -%}
+{%- if locale_data.keywords -%}
+  {%- assign keywords = keywords | concat: locale_data.keywords -%}
+{%- endif -%}
+{%- if page.keywords -%}
+  {%- assign keywords = keywords | concat: page.keywords -%}
+{%- endif -%}
+{%- assign keywords = keywords | join: ", " %}
+<meta name="keywords" content="{{ keywords }}">

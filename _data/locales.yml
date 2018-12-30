@@ -1,0 +1,35 @@
+en-US:
+  lang: English
+  description: Ocean is the fast and flexible package manager for your favorite platform.
+  view_other_langs: View this page in other languages
+  social_links: Social Links
+  keywords:
+    - package
+    - manager
+  pages:
+    install:
+      title: Install
+    about:
+      title: About
+    drops:
+      title: Drops
+    docs:
+      title: Documentation
+
+es-ES:
+  lang: Español
+  description: Ocean es la solución de administración de paquetes rápida y flexible para su plataforma favorita.
+  view_other_langs: Ver esta página en otros idiomas
+  social_links: Enlaces Sociales
+  keywords:
+    - administrador
+    - paquetes
+  pages:
+    install:
+      title: Instalar
+    about:
+      title: Acerca de
+    drops:
+      title: Gotas
+    docs:
+      title: Documentación
