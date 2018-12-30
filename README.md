@@ -25,3 +25,13 @@ this site:
 ### Software
 
 This site is made with [Jekyll](https://jekyllrb.com), a static site generator.
+
+## Localization
+
+The site is available in the following languages:
+
+- [English](https://www.oceanpkg.org/en-US/)
+- [Español](https://www.oceanpkg.org/es-ES/)
+
+If you find any translation errors or awkward wording, please file an issue or
+submit a pull request!
