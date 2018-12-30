@@ -10,3 +10,6 @@ keywords:
   - oceanpkg
 
 markdown: kramdown
+
+exclude:
+  - README.md
