@@ -1,0 +1,16 @@
+lang: Español
+description: Ocean es la solución de administración de paquetes rápida y flexible para su plataforma favorita.
+view_other_langs: Ver esta página en otros idiomas
+social_links: Enlaces Sociales
+keywords:
+  - administrador
+  - paquetes
+pages:
+  install:
+    title: Instalar
+  about:
+    title: Acerca de
+  drops:
+    title: Gotas
+  docs:
+    title: Documentación
