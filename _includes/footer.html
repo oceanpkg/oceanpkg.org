@@ -13,7 +13,7 @@
           {% raw %}, {% endraw %}
         {%- endunless -%}
         {%- assign first_iter = false -%}
-        <a href="{{ page.url | replace: locale, other_locale[0] }}">
+        <a lang="{{ other_localse[0] }}" href="{{ page.url | replace: locale, other_locale[0] }}">
           {{- other_locale[1].lang -}}
         </a>
       {%- endfor -%}
