@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.oceanpkg.org/">
+    <img src="https://www.oceanpkg.org/logos/ocean-logo.svg" width="192px" alt="Ocean Logo">
+  </a>
+</p>
+
 # www.oceanpkg.org
 
 The Ocean package manager is still very much in the works and won't be released
