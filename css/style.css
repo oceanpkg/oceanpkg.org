@@ -2,14 +2,9 @@ body {
   font-family: sans-serif;
 }
 
-body, ul {
+body, .grouped {
   margin: 0;
   padding: 0;
-  border: 0;
-}
-
-ol, ul {
-  list-style-type: none;
 }
 
 ul {
@@ -17,18 +12,20 @@ ul {
 }
 
 .nav-header li {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .current-nav a {
   color: aqua;
 }
 
-.nav-footer {
-  padding-top: 15px;
-  padding-bottom: 15px;
+footer img {
+  width: 32px;
+  padding: 0px 8px;
+}
+
+footer {
+  padding: 15px 0;
   clear: both;
   bottom: 0;
   width: 100%;
@@ -37,11 +34,11 @@ ul {
   color: #fff;
 }
 
-.nav-footer a {
+footer a {
   color: #fff;
 }
 
-.footer-social {
+.grouped li {
   display: inline-block;
 }
 
