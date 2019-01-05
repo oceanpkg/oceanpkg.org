@@ -1,16 +1,47 @@
 lang: Español
 description: Ocean es la solución de administración de paquetes rápida y flexible para su plataforma favorita.
-view_other_langs: Vea esta página en otros idiomas
-social_links: Enlaces Sociales
 keywords:
   - administrador
   - paquetes
+
+# Mapeo de frases directas, indexado a través de "keys"
+map:
+  about: Acerca de
+  documentation: Documentación
+  drops: Gotas
+  install: Instalar
+  resources: Recursos
+  social_links: Enlaces Sociales
+
 pages:
+  home:
+    header: Ocean, el Administrador de Paquetes
+    intro: Algún día esto va a existir. Si quieres ayudar para hacer este proyecto una realidad, contacta a <a href="https://twitter.com/NikolaiVazquez">Nikolai Vazquez</a>.
+
   install:
-    title: Instalar
+    title_key: install
+    keywords:
+      - instalar
+      - instalación
+    header: Instalando Ocean
+
   about:
-    title: Acerca de
+    title_key: about
+    keywords:
+      - acerca de
+      - sobre
+    header: Acerca de Ocean
+
   drops:
-    title: Gotas
+    title_key: drops
+    keywords:
+      - gotas
+      - paquetes
+
   docs:
-    title: Documentación
+    title_key: documentation
+    keywords:
+      - documentación
+
+footer:
+  view_other_langs: Vea esta página en otros idiomas

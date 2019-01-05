@@ -6,13 +6,23 @@
   2. Title in `locales.yml`
   3. Site title
 {%- endcomment -%}
+
 {%- if page.title -%}
-  {%- capture title -%}{{ page.title }} &middot; {{ site.title }}{%- endcapture -%}
+  {%- assign page_title = page.title -%}
+{%- elsif locale_data_page.title_key -%}
+  {%- assign page_title = locale_data.map[locale_data_page.title_key] -%}
 {%- elsif locale_data_page.title -%}
-  {%- capture title -%}{{ locale_data_page.title }} &middot; {{ site.title }}{%- endcapture -%}
+  {%- assign page_title = locale_data_page.title -%}
+{%- endif -%}
+
+{%- if page_title -%}
+  {%- capture title -%}
+    {{ page_title }} &middot; {{ site.title }}
+  {%- endcapture -%}
 {%- else -%}
   {%- assign title = site.title -%}
 {%- endif -%}
+
 <title>{{ title }}</title>
 
 {%- if page.description -%}

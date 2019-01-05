@@ -10,4 +10,4 @@ any rendered HTML.
 {%- endif -%}
 
 {%- assign locale_data = site.data.locales[locale] -%}
-{%- assign locale_data_page = site.data.locales[locale].pages[page.key] -%}
+{%- assign locale_data_page = locale_data.pages[page.id] -%}

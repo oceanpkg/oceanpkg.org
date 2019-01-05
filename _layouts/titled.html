@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include locale.liquid %}
+
+{% if locale_data_page.header %}
+    {% assign title = locale_data_page.header %}
+{% else %}
+    {% assign title = locale_data_page.title %}
+{% endif %}
+
+<div class="container">
+    <h1 class="title">{{ title }}</h1>
+</div>
+
+{{ content }}
