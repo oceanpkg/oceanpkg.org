@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.oceanpkg.org/">
-    <img src="https://www.oceanpkg.org/img/ocean-logo.svg" width="192px" alt="Ocean Logo">
+    <img src="https://www.oceanpkg.org/static/images/ocean-logo.svg" width="192px" alt="Ocean Logo">
   </a>
 </p>
 
