@@ -1,16 +1,18 @@
-{%- include locale.liquid -%}
 <!DOCTYPE html>
 {% include gen_time.html %}
-<html lang="{{ locale }}">
+<html lang="en-US">
   <head>
-    {%- include common_head.html -%}
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   </head>
   <body>
-    {%- include nav.html -%}
+    <header>
+      {% include header.html %}
+    </header>
     <main id="content" role="main">
       {{ content }}
     </main>
-    {%- include footer.html -%}
   </body>
 </html>
