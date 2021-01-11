@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll",    "~> 3.8.5"
-gem "redcarpet", "~> 3.2"
+gem "redcarpet", "~> 3.5"
 
 group :jekyll_plugins do
   # Jekyll plugins get loaded here first
